@@ -25,3 +25,30 @@ users.forEach(logPerson);
 
 // https://www.typescriptlang.org/docs/handbook/2/objects.html
 */
+
+export interface Car {model: string; year: number, make: string};
+
+export const cars: Car[] = [
+    {
+        model: 'Eclipse',
+        year: 2003,
+        make: 'Mitsubishi'
+    },
+    {
+        model: 'X-Trail',
+        year: 2006,
+        make: 'Nissan'
+    }
+    {
+        model: 'Golf',
+        year: 2008,
+        make: 'Volkswagen'
+    }
+];
+
+export function logCar(car: Car) {
+    console.log(`- ${car.year}, ${car.make}, ${car.model}`)
+}
+
+console.log('My favourite cars: ')
+cars.forEach(logCar)
