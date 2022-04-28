@@ -38,7 +38,7 @@ export const cars: Car[] = [
         model: 'X-Trail',
         year: 2006,
         make: 'Nissan'
-    }
+    },
     {
         model: 'Golf',
         year: 2008,
