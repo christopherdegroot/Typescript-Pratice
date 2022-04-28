@@ -47,8 +47,8 @@ export const cars: Car[] = [
 ];
 
 export function logCar(car: Car) {
-    console.log(`- ${car.year}, ${car.make}, ${car.model}`)
+    console.log(`- ${car.year} ${car.make} ${car.model}`)
 }
 
-console.log('My favourite cars: ')
+console.log('Cars I have owned: ')
 cars.forEach(logCar)
