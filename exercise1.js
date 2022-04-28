@@ -23,7 +23,7 @@ exports.users.forEach(logPerson);
 ;
 exports.cars = [
     {
-        model: 'Eclipse',
+        model: 2003,
         year: 2003,
         make: 'Mitsubishi'
     },
