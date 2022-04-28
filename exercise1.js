@@ -15,7 +15,7 @@ exports.users = [
     }
 ];
 function logPerson(user) {
-    console.log(" - ".concat(user.name, ", ").concat(user.age));
+    console.log(" - ".concat(user.name, ", ").concat(user.age, ", ").concat(user.occupation));
 }
 exports.logPerson = logPerson;
 console.log('Users:');
