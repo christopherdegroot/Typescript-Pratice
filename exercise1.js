@@ -39,8 +39,8 @@ exports.cars = [
     }
 ];
 function logCar(car) {
-    console.log("- ".concat(car.year, ", ").concat(car.make, ", ").concat(car.model));
+    console.log("- ".concat(car.year, " ").concat(car.make, " ").concat(car.model));
 }
 exports.logCar = logCar;
-console.log('My favourite cars: ');
+console.log('Cars I have owned: ');
 exports.cars.forEach(logCar);
